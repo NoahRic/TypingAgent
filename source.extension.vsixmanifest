@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="TypingAgent">
+    <Name>Typing Agent Demo</Name>
+    <Author>Noah Richards</Author>
+    <Version>1.0</Version>
+    <Description>This demo fakes two remote typing agents (only for .cs files created via New C# Console App project).</Description>
+    <Locale>1033</Locale>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>VST_All</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>|TypingAgent|</MefComponent>
+  </Content>
+</Vsix>
